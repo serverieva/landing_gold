@@ -1,0 +1,361 @@
+@font-face {
+    font-family: WisdomScript;
+    src: url(../fonts/WisdomScriptAJ.woff);
+}
+#wrapper {
+    width: 1400px;
+    margin: 0 auto;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.clear {
+    clear: both;
+}
+/*---------------------------------------HEADER--------------------------------------------------*/
+#header {
+    background: url("../img/header.jpg")no-repeat;
+    padding: 50px 230px 160px 170px;
+}
+#header p {
+    font-size: 40px;
+    font-family: 'Droid serif';
+    font-weight: 400i;
+}
+#header h1 {
+    font-size: 75px;
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 700;
+    text-transform: uppercase;
+}
+#header button {
+    background: #fed136;
+    font-size: 18px;
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 2px;
+    padding: 25px 50px;
+    color: #fff;
+}
+#header button:hover {
+    background: #f4c936;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24);
+    cursor: pointer;
+}
+.header-menu {
+    float: right;
+}
+.header-menu >li {
+    display: inline;
+    margin-right: 38px;
+}
+.header-menu >li>a {
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Montserrat','sans-serif';
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.header-menu >li>a:hover {
+    text-decoration: underline;
+}
+.header-greeting {
+    color: #fff;
+    text-align: center;
+    margin-top: 100px;
+}
+span.logo {
+    color: #f4c936;
+    font-size: 26px;
+    font-family: "WisdomScript";
+    text-transform: capitalize;
+}
+.title {
+    text-align: center;
+}
+.title h2 {
+    font-size: 40px;
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222222;
+}
+.title p {
+    font-size: 16px;
+    font-family: "Droid serif";
+    font-weight: 400i;
+    color: #777777;
+    margin-top: -18px;
+}
+/*----------------------------------------SERVICES-------------------------------------------------*/
+#services {
+    padding: 50px 230px;
+}
+.services-content {
+    margin-top: 75px;
+
+}
+.services-content-block {
+    width: 282px;
+    float: left;
+    text-align: center;
+    margin-right: 30px;
+}
+.services-content-block img {
+    margin-bottom: 25px;
+}
+
+.title-text,
+.date{
+    font-size: 18px;
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 700;
+    margin-top: 25px;
+}
+.version {
+    font-size: 14px;
+    font-family: "RobotoSlab";
+    font-weight: 400;
+    color: #c6c6c6;
+}
+/*----------------------------------------OUR PORTFOLIO-------------------------------------------------*/
+#our-portfolio {
+    padding: 50px 230px;
+    background: #f7f7f7;
+}
+.portfolio-content {
+    margin-top: 75px;
+}
+.list-portfolio {
+    width: 290px;
+    height: 393px;
+    text-align: center;
+    float: left;
+    margin-right: 23px;
+    background: #fff;
+    margin-bottom: 45px;
+    position:relative;
+}
+.list-portfolio-title {
+    font-size: 18px;
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 700;
+    color: #333333;
+    text-transform: capitalize;
+    margin-top: 25px;
+}
+.description {
+    font-size: 14px;
+    font-family: "Droid serif";
+    font-weight: 400;
+    color: #737373;
+}
+.list-portfolio-img {
+    transition: width 0.5s;
+    box-shadow: 20px 20px 50px #777777;
+}
+.list-portfolio-img:hover {
+    width: 320px;
+    z-index: 100;
+}
+.list-portfolio:hover {
+    z-index: 100;
+}
+/*----------------------------------------ABOUT US-------------------------------------------------*/
+.about-us-content {
+    width: 900px;
+    margin: 0 auto;
+}
+.about-us-content-row1 {
+    width: 310px;
+    text-align: right;
+    float: left;
+    margin-right: 35px;
+}
+.about-us-content-row2 {
+    text-align: center;
+    float: left;
+    width: 200px;
+    position: relative;
+}
+.about-us-content-row3 {
+    width: 310px;
+    float: left;
+    margin-top: 360px;
+    margin-left: 35px;
+}
+.about-us-content-row1,
+.about-us-content-row2 {
+    margin-top: 80px;
+}
+.about-us-row1-item1 {
+    margin-bottom: 415px;
+}
+.about-us-row3-item1 {
+    margin-bottom: 380px;
+}
+.date {
+    text-transform: uppercase;
+}
+.title-text {
+    text-transform: capitalize;
+}
+.about-us-text {
+    position: relative;
+    bottom: 130px;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 700;
+    text-transform: uppercase;
+}
+/*----------------------------------------TEAM-------------------------------------------------*/
+#our-team {
+    padding: 50px 230px;
+    background: #f9f9f9;
+}
+.our-team-content {
+    width: 790px;
+    margin: 0 auto;
+}
+.team {
+    width: 200px;
+    float: left;
+    margin-right: 60px;
+    text-align: center;
+    margin-top: 80px;
+}
+.team-version-text {
+    width: 600px;
+    margin: 0 auto;
+}
+.team-version {
+    margin-top: 80px;
+    font-size: 16px;
+    font-family: "RobotoSlab";
+    font-weight: 400;
+    color: #9f9f9f;
+    text-align: center;
+}
+.team-img {
+    margin-bottom: 25px;
+}
+.name {
+    font-size: 16px;
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 700;
+    color: #222222;
+}
+.description-team {
+    font-size: 16px;
+    font-family: "RobotoSlab";
+    color: #8c8c8c;
+}
+.soc-icons {
+    margin-top: 10px;
+}
+.twitter > img:hover {
+    content:url("../img/soc-twitter1.png");
+}
+.facebook > img:hover {
+    content:url("../img/soc-facebook1.png");
+}
+.pinterest > img:hover {
+    content:url("../img/soc-pinterest1.png");
+}
+.google > img:hover {
+    content:url("../img/soc-google1.png");
+}
+/*----------------------------------------LOGOS-------------------------------------------------*/
+#logos {
+    padding: 50px 230px;
+    margin: 0 auto;
+}
+#logos >img {
+    margin-right: 40px;
+}
+/*----------------------------------------CONTACT US-------------------------------------------------*/
+#contact-us {
+    background: url("../img/map.png")no-repeat;
+    padding: 50px 230px;
+    height: 575px;
+}
+#contact-us .title h2 {
+    color: #fff;
+}
+#contact-us .title {
+    margin-bottom: 70px;
+}
+.form-style {
+    width: 945px;
+    margin: 0 auto;
+}
+.form-style .field-style {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 2px;
+    border: 1px solid #cccccc;
+    font-size: 14px;
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 700;
+    color: #c0c0c0;
+    text-transform: uppercase;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.contact-form-block-left {
+    float: left;
+    width: 455px;
+}
+.contact-form-block-right {
+    float: right;
+    width: 455px;
+}
+.form-style textarea[type="text"] {
+    resize: none;
+    width: 100%;
+    height: 220px;
+}
+.form-style input[type="submit"] {
+    background: #fed136;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 700;
+    border-radius: 2px;
+    border: none;
+    text-transform: uppercase;
+    padding: 25px 50px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 25px;
+}
+.form-style input[type="submit"]:hover {
+    background: #FEDC40;
+}
+.contact-form-block-center {
+    width: 240px;
+    height: 65px;
+    margin: 0 auto;
+}
+/*----------------------------------------FOOTER-------------------------------------------------*/
+#footer {
+    padding: 30px 230px;
+    margin: 0 auto;
+}
+.copy {
+    float: left;
+    font-size: 14px;
+    font-family: 'Montserrat', 'sans-serif';
+    color: #737373;
+    margin-right: 115px;
+}
+.icons {
+
+
+}
